@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Project 3 Proposal</title>
+</head>
+
+<body class="doc">
+    <h1>Etch-A-Fetch</h1>
+
+    <h3>I. High Concept</h3>
+    <p>While following the confusing controls of a classic Etch-A-Sketch, the player must
+        navigate against the clock to pick up waves of collectibles!
+    </p>
+
+    <h3>II. Genre</h3>
+    <p>Strategy Arcade Game</p>
+
+    <h3>III. Platform</h3>
+    <p>Desktop only</p>
+
+    <h3>IV. Story</h3>
+    <p>Abstract game</p>
+
+    <h3>V. Aesthetics</h3>
+    <p>
+        Graphics style - Pixel Art<br>
+        Sound types - collectible pickup, board shake, UI clicks
+    </p>
+
+    <h3>VI. Gameplay</h3>
+    <p>The player will be in charge of controlling the line being drawn on the face
+        of the Etch-A-Sketch as well as have access to a button that "shakes" the screen
+        to clear the trail. This button will only be available after enough collectibles are
+        collected, and then it resets until more collectibles are collected later on. The player
+        will learn the controls at first by being tasked with navigating to 5 collectibles,
+        and then more will start to spawn after that initial collection.<br>
+        As the screen shake/clear mechanic is introduced, the player must learn to save
+        clearing the screen for when it's truly needed and not waste it before the screen
+        gets too covered.
+    </p>
+
+    <h3>VII. Mockups</h3>
+    <img src="images/etch1.jpg" alt="Home page mockup">
+    <img src="images/etch2.jpg" alt="Gameplay mockup">
+
+    <h3>VIII. Other</h3>
+    <p> The controls of the game will follow the traditional Etch-A-Sketch knobs with A and D
+        being left and right respectively, and the left and right arrows being up and down.<br>
+        I want to include an optional free draw mode which brings the player to the base
+        Etch-A-Sketch functionality where you can doodle with it.
+    </p>
+
+    <h3>IX. About the developer</h3>
+    <p>My name is Amanda Rowe and I'm a Game Design and Development major at RIT. I absolutely love
+        the problem solving and design aspects of GDD and I'm a big fan of narrative-driven and puzzle games!
+    </p>
+
+    <h2>Documentation</h2>
+
+    <p>
+        For this project, I ended up changing a lot of my initial ideas when it came to functionality due to
+        my original idea being too difficult for both me as a programmer, and the player. Initially I wanted this game
+        to resemble Snake more with the idea of drawing over previous lines being a lose condition, but especially with
+        the confusing Etch-A-Sketch controls, I found it too difficult to play. Scrapping that idea, I instead went with
+        a simple collection game with a timer, which still keeps the difficulty of drawing with the controls without the
+        unnecessary precision needed for my previous idea.<br><br>
+
+        After some peer critiques in class, I decided to stick with my timed game idea with some added visual
+        flair. Many people wanted to see the knobs on the Etch-A-Sketch actually spin, so I implemented that after
+        creating
+        all of my assets with PixelStudio. I also made the drawn line very slightly transparent in order to see when
+        it's passed
+        over a second time as well as gave the stars a nice fade-in effect when they spawn.<br><br>
+
+        Overall, I am very proud of my final product and I think it turned out really fun to actually play. I believe
+        I've
+        met all of the project requirements when it comes to functionality, design, and good coding practices.<br><br>
+
+        Fun things to note!:<br>
+        - When in game mode, stars will not spawn on top of the drawn line, so the more line there is on the screen,
+        the less amount of stars will spawn! This creates incentive to shake the board.<br>
+        - Line pixels only spawn after the cursor square has moved and less often than every frame in order to save
+        computing power
+    </p>
+
+    <h3>Sources</h3>
+    <ul>
+        <li><a href="https://www.youtube.com/watch?v=cP-_beFbz_Q">Useful keyboard sprite movement tutorial</a></li>
+        <li>
+            UI Sound Effect from <a
+                href="https://pixabay.com/sound-effects/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=43196">Pixabay</a>
+        </li>
+        <li>Ding Sound Effect from <a
+                href="https://pixabay.com/sound-effects/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=6896">Pixabay</a>
+        </li>
+        <li>Shake Sound Effect from <a
+                href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=music&amp;utm_content=96751">Pixabay</a>
+        </li>
+        <li><a href="https://fonts.google.com/specimen/Silkscreen">Silkscreen</a> font from Google Fonts</li>
+    </ul>
+    <div><a href="index.html">Back to Game</a></div>
+    <footer>© Amanda Rowe 2022</footer>
+</body>
+
+</html>
