@@ -17,41 +17,104 @@
     <div id="navbar">
       <a class="button" href="/index.html">Home</a>
       <a class="button" href="/index.html#projects">Projects</a>
-      <a class="button" href="/index.html#resume">Resume</a>
+      <a class="button" href="/resume.html">Resume</a>
       <a class="button" href="/index.html#contact">Contact</a>
     </div>
   </div>
 
   <div id="img-hero">
-    <img src="media/puckduckSS.PNG" alt="Rock On, Raccoon! Key Art">
+    <img src="media/puckduckSS.PNG" alt="Rock On, Raccoon! Key Art" />
   </div>
 
   <section id="project-description">
     <div class="item">
-      <div id="item-image">
-        <img src="/media/me.jpg" alt="placeholder" />
-      </div>
       <div id="item-info">
-        <h1>Hi, I'm Mana!</h1>
-
+        <h2>Duration: February -> May 2022</h2>
+        <a
+          class="link-button hvr-forward"
+          href="https://github.com/twig-sh/gdaps2_2215_team_b"
+          >See on Github</a
+        >
+        <h1>About the Game</h1>
+        <p>
+          <i>Puck Duck</i> is a small puzzle game where you collect stars by
+          tactically pushing Puck Duck around an air hockey table to its goal
+          through various obstacles!
+        </p>
         <ul>
-          <li>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget
-            tincidunt enim, eu pellentesque ante.
-          </li>
-          <li>
-            Etiam nec scelerisque est. Nunc nisl massa, scelerisque ut malesuada
-            nec, vulputate et nibh. Praesent sit amet sem urna. Aliquam lacus
-            neque, feugiat in lectus id, sollicitudin dictum enim. Nam id erat
-            velit.
-          </li>
-          <li>
-            Aliquam nunc erat, ultricies vel nibh non, lacinia imperdiet sapien.
-            Integer a dignissim sapien. Mauris eu cursus ligula. Aliquam erat
-            volutpat.
-          </li>
+          <li><b>Team size:</b> 4</li>
+          <li><b>Engine:</b> Monogame</li>
+          <li><b>Language:</b> C#</li>
         </ul>
       </div>
+    </div>
+    <div class="project-details">
+      <h1>Origin</h1>
+      <p>
+        <i>Puck Duck</i> was a game created for a class project where we were
+        restricted to using Monogame as an engine. We also had to include some
+        sort of data read-in for some aspect of the game.
+      </p>
+
+      <h1>My Contributions</h1>
+      <p>
+        On this project, I did a little bit of everything. I programmed the
+        movement of the duck as well as the functionality of the pistons. I also
+        worked on level design, and made most of the assets in the game.
+      </p>
+
+      <h2>Art</h2>
+      <p>
+        I created the tiles for the levels themselves, as well as the
+        background, UI, and the duck's spinning animation.
+      </p>
+
+      <div class="gallery">
+        <div>
+          <img src="media/puckduck/duck.png" alt="Puck Duck Spritesheet" />
+        </div>
+        <div>
+          <img src="media/puckduck/PistonUpClosed.png" alt="Up Piston" />
+        </div>
+        <div>
+          <img src="media/puckduck/PistonRightClosed.png" alt="Right Piston" />
+        </div>
+        <div>
+          <img src="media/puckduck/PistonLeftClosed.png" alt="Left Piston" />
+        </div>
+        <div>
+          <img src="media/puckduck/PistonDownClosed.png" alt="Down Piston" />
+        </div>
+        <div><img src="media/puckduck/Wall_Blue.png" alt="Blue Wall" /></div>
+        <div><img src="media/puckduck/Wall_Red.png" alt="Red Wall" /></div>
+        <div>
+          <img src="media/puckduck/Wall_Yellow.png" alt="Yellow Wall" />
+        </div>
+      </div>
+      <div class="gallery">
+        <img src="media/puckduck/clear3Star.png" alt="Clear Screen" />
+        <img
+          src="media/puckduck/AirHockeyTexture.png"
+          alt="Background Texture"
+        />
+      </div>
+
+      <h2>Design</h2>
+      <p>
+        Because our levels were imported via a .csv file, I created a Google
+        Sheets document that would easily visualize the levels with color
+        formatting. We used this document to design the levels, then exported
+        them as a .csv to then use in-game.
+      </p>
+      <iframe
+        id="table"
+        src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQgUVsjbvl5lr-Q2gPo7VzeOnVsWtnKqrJC3hvYl9lXJoQeOVdXTeU6OgbLmbdvLJ2TzRNjIwT1EKNW/pubhtml?widget=true&amp;headers=false"
+      ></iframe>
+      <a
+        class="link-button hvr-forward"
+        href="https://docs.google.com/spreadsheets/d/1c6dECE9zBLdFHJIQJ2viLSZn_R6XEYFp946uKelbZVk/edit?usp=sharing"
+        >See Full Level Design Document</a
+      >
     </div>
   </section>
   <footer>Copyright © 2025 by Amanda Rowe</footer>

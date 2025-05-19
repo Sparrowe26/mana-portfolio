@@ -200,12 +200,14 @@ footer {
 
 .gallery {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 10px;
 }
 
 .gallery img {
   max-height: 200px;
+  height:min-content;
   margin: 5px;
 }
 .linkicon {
@@ -221,6 +223,12 @@ footer {
 .project-details li {
   list-style: square;
   list-style-position: inside;
+}
+
+#table {
+  width: 100%;
+  height: 400px;
+  margin: 20px;
 }
 
 /* HOVER EFFECTS */
